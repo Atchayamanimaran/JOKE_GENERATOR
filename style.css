@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Oswald:wght@200..700&display=swap');
+
+body{
+    background: linear-gradient(180deg,rgb(25, 156, 196),rgb(1, 5, 7));
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100w;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: beige;
+    font-family: "Oswald", sans-serif;
+}
+
+h1{
+    margin-top: 68px;
+    font-size: 68px;
+}
+#button{
+    width: 168px;
+    height: 60px;
+    background: white;
+    color: black;
+    font-size: 36px;
+    line-height: 50px;
+    text-align: center;
+}
+#button:hover{
+    cursor: pointer;
+    box-shadow: 0px 3px 3px pink;
+}
+#jokecontent,#joke{
+    font-size: 40px;
+    line-height: 38px;
+}
+#jokecontent,img{
+    margin-top: 10px;
+}
